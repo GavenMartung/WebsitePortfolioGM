@@ -1,0 +1,157 @@
+body {
+   
+
+}
+
+header {
+    
+    width: 100%;
+
+}
+
+.site-header {
+    padding: 15px;
+    max-width: 1900px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-inner {
+    
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.mixtape {
+    max-width: 250px;
+    width: 100%;
+    margin-right: 40px;
+}
+
+
+.site-footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.siteNav {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+   
+}
+
+.siteNav img {
+        padding-left: 30px;
+        padding-right: 30px;
+}
+
+.entry-header {
+    
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.entry-header img{
+    padding: 15px;
+}
+
+.images1 {
+  
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+.images2 {
+   
+    width: 56%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 640px) {
+
+    .entry-header {
+      
+    margin-left: 15px;
+    }
+
+
+    .images1 {
+        margin-left: auto;
+        margin-right: auto;
+       
+        width: 500px;
+        height: 215px;
+    }
+
+    .TV1 {
+      height:92%;
+    }
+
+    .TV2 {
+        height:65%;
+        
+    }
+    .TV3 {
+        height: 65%;
+        margin-left : 50px;
+        margin-right: auto;
+    }
+
+    .images2 {
+ 
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+      
+        max-width: 100px;
+    }
+
+    .mixtape {
+        visibility: hidden;
+    }
+
+    .site-footer {
+        height: 50px;
+        margin-top: auto;
+        margin-bottom:auto;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+
+    .siteNav {
+        margin-top: 40px;
+        margin-bottom: auto;
+    }
+
+
+
+
+   
+}
+
+
